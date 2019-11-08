@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xTableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:&lt;#Style#&gt;];
+    self.tableView.backgroundColor = [UIColor whiteColor];
+    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
+    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 300;
+    [self.view addSubview:self.tableView];
+    
+    [self.tableView registerClass:[&lt;#TabelViewCellClass#&gt; class] forCellReuseIdentifier: [&lt;#TabelViewCellClassID#&gt; description]];
+    
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9FF1BD8B-2F87-413D-BB23-D8CF6D073121</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>make a tableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>make a tableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

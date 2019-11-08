@@ -1,0 +1,6 @@
+替换该目录
+文件模板
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/Source/Cocoa Touch Class.xctemplate
+
+代码块:
+~/Library/Developer/Xcode/UserData/CodeSnippets

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xBottomLine</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        UIView *bottomLineView = [[UIView alloc] initWithFrame:CGRectZero];
+        bottomLineView.backgroundColor = LQHexColor(0xE3E3E3);
+        [self.contentView addSubview:bottomLineView];
+        
+        [bottomLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.bottom.equalTo(self.contentView);
+            make.left.right.equalTo(self.contentView);
+            make.height.equalTo(@(0.5));
+        }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52EBF33A-B555-4F40-8E43-D5D4401372F4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>viewBottomLine</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

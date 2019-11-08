@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIButton *finishBtn = [[UIButton alloc] init];
+[finishBtn setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+    finishBtn.titleLabel.font = [UIFont systemFontOfSize:16.f];
+    [finishBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    finishBtn.backgroundColor = LQColorA(0, 160, 233, 1.0);
+    [finishBtn addTarget:self action:@selector(finishBtnDidClick) forControlEvents:UIControlEventTouchUpInside];
+    finishBtn.layer.masksToBounds = YES;
+    finishBtn.layer.cornerRadius = 5;
+
+    [self.view addSubview:finishBtn];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D05AF2CE-6AC0-4E02-9820-6CBC3A6CBE3E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>make a button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>make a button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
