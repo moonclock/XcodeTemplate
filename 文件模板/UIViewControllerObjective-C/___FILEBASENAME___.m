@@ -25,6 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     
     [self setupUI];
     [self loadData];
@@ -54,6 +59,8 @@
 
 #pragma mark - Tools && Extraction method
 
+
+#pragma mark - Override Methods
 
 
 #pragma mark - Intial Methods
