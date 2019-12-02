@@ -26,14 +26,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    [self setupUI];
+    [self loadData];
+    [self addObserver];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    [self setupUI];
-    [self loadData];
-    [self addObserver];
+    //    self.navigationController.navigationBar.hidden = YES;
 }
 
 #pragma mark - Private / Network Method
