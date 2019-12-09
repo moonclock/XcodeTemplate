@@ -66,8 +66,9 @@
 }
 
 #pragma mark - Setter Getter Methods
-
-
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 
 @end
