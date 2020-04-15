@@ -36,6 +36,9 @@
     //    self.navigationController.navigationBar.hidden = YES;
 }
 
+#pragma mark - Override Methods
+
+
 #pragma mark - Private / Network Method
 - (void)loadData {
     
@@ -55,9 +58,6 @@
 
 
 #pragma mark - Tools && Extraction method
-
-
-#pragma mark - Override Methods
 
 
 #pragma mark - Intial Methods
