@@ -19,18 +19,17 @@
     return self;
 }
 
-- (instancetype)initWithReuseIdentifier:(nullable NSString *)reuseIdentifier {
-    if (self = [super initWithReuseIdentifier:reuseIdentifier]) {
-        if (@available(iOS 14.0, *)) {
-            self.backgroundConfiguration = [UIBackgroundConfiguration clearConfiguration];
-        }
-        
-        [self setupUI];
-    }
-    
-    return self;
-}
-
+//- (instancetype)initWithReuseIdentifier:(nullable NSString *)reuseIdentifier {
+//    if (self = [super initWithReuseIdentifier:reuseIdentifier]) {
+//        if (@available(iOS 14.0, *)) {
+//            self.backgroundConfiguration = [UIBackgroundConfiguration clearConfiguration];
+//        }
+//        
+//        [self setupUI];
+//    }
+//    
+//    return self;
+//}
 
 - (void)setupUI {
     
