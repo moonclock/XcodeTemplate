@@ -2,6 +2,10 @@
 
 #import "___FILEBASENAME___.h"
 
+@interface ___FILEBASENAMEASIDENTIFIER___()
+
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
